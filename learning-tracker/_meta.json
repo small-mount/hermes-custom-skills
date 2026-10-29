@@ -1,0 +1,26 @@
+{
+  "name": "learning-tracker",
+  "version": "3.0.0",
+  "scene": "拆解学习目标与督促打卡",
+  "category": "研究学习",
+  "subtitle": "单词背了就忘？每天帮你盯进度，到点就催你学",
+  "target_user": "英语学习者",
+  "core_need": "坚持背单词，形成习惯",
+  "trigger_words": [
+    "背单词",
+    "督促学习"
+  ],
+  "output_format": "文字推送 + 日程确认 + 学习记录",
+  "priority": "P0",
+  "tools": [
+    "web_search",
+    "write_to_file",
+    "automation_update"
+  ],
+  "dependencies": [
+    "study-buddy"
+  ],
+  "real_objects": "系统日程、学习记录文件、周报文件",
+  "deliverables": "学习记录表、周报文件",
+  "need_external_search": "是"
+}
